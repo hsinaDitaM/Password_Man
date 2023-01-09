@@ -10,7 +10,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <label for="lname">Password</label>
   <br/>
   <input class = "text" type="text" id="lname" name="lname"><br><br>
-  <input class ="submit" type="submit" value="Submit">
+  <input class ="submit" type="submit" value="Log In">
 <input class ="submit" type="submit" value="Create Account">
 </form>
 <style>
