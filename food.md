@@ -1,4 +1,5 @@
 
+## Example of what the site looks like
 
 | Site | Username | Password |
 | - | - | - |
