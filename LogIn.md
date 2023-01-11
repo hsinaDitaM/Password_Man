@@ -28,7 +28,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
     .submit{
         list-style-type: none;
         width: 132px;
-        min-height: 40px;
+        min-height: 30px;
         margin-bottom: 12px;
         line-height: 1em;
         padding: 6px 6px 6px 7px;

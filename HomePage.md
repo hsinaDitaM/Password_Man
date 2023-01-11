@@ -13,10 +13,18 @@
 <input class ="submit" type="submit" value="Calendar">
 </form>
 <style>
+    input[type=text], input[type=password]{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+      border-radius: 0.5em;
+      box-shadow: 0.75em;
+      min-width: 150px;
+      padding: 5px 5px;
+    }
     .submit{
         list-style-type: none;
         width: 132px;
-        height: 30px;
+        min-height: 30px;
         margin-bottom: 12px;
         line-height: 1em;
         padding: 6px 6px 6px 7px;
@@ -27,7 +35,7 @@
         background: -o-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: -ms-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: linear-gradient(to top, #AF0011 0%, #820011 100%);
-        border-radius: 4px;
+        border-radius: 0.75em;
         border: 1px solid #0D0D0D;
         -webkit-box-shadow: inset 0px 1px 1px 0 #e90226;
         box-shadow: inset 0px 1px 1px 0 #e90226;

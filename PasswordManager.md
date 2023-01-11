@@ -12,6 +12,14 @@
 <input class ="submit" type="submit" value="Log Out">
 </form>
 <style>
+    input[type=text], input[type=password]{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+      border-radius: 0.5em;
+      box-shadow: 0.75em;
+      min-width: 150px;
+      padding: 5px 5px;
+    }
     .submit{
         list-style-type: none;
         width: 132px;
