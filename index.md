@@ -9,7 +9,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br><br><input class="submit" type="submit" value="Create Account">
   <a href="/gallery">
-    <input class="submit" type="submit" value='Log In'>
+    <button href>
   </a>
 </form>
 
