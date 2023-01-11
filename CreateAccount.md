@@ -1,16 +1,16 @@
-
-## Example of what the site looks like
-
-| Site | Username | Password | Link |
-| - | - | - | - |
-| Github | Mati_Git | 1234 | [Link](https://github.com/login) |
-| Twitter | Mati_Twitter | Tweet | [Link](https://twitter.com/home) |
-| Instagram | Mati_Instagram | Password | [Link](https://www.instagram.com/accounts/login/) |
+## Here you can create your account
 
 <form>
-<input class ="submit" type="submit" value="Add Password">
-<input class ="submit" type="submit" value="Log Out">
+  <label for="Create-Username>">Create-Username</label>
+  <br><input type="text" id="Create-Username" name="CreateUsername" placeholder="MatiD1234">
+  <br><br><label for="Create-Password" id="Create-Password" name="Create-password" >Create-Password</label>
+  <br><input type="text" id="Create-Password" name="Create-Password" placeholder="1234">
+  <br><br><input class="submit" type="submit" value="Create Account">
+  <a href="/gallery">
+    <input class="submit" type="submit" value='Log In'>
+  </a>
 </form>
+
 <style>
     input[type=text], input[type=password]{
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
@@ -19,11 +19,14 @@
       box-shadow: 0.75em;
       min-width: 150px;
       padding: 5px 5px;
+
+
     }
+    
     .submit{
         list-style-type: none;
         width: 132px;
-        height: 30px;
+        min-height: 30px;
         margin-bottom: 12px;
         line-height: 1em;
         padding: 6px 6px 6px 7px;
@@ -34,10 +37,11 @@
         background: -o-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: -ms-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: linear-gradient(to top, #AF0011 0%, #820011 100%);
-        border-radius: 4px;
+        border-radius: 0.75em;
         border: 1px solid #0D0D0D;
         -webkit-box-shadow: inset 0px 1px 1px 0 #e90226;
         box-shadow: inset 0px 1px 1px 0 #e90226;
         color: white;
+
         }
 </style>
