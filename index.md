@@ -3,21 +3,32 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
 
 ## Log-in
 <form>
-<!---<form action="/action_page.php">-->
-  <label class = "text" for="fname">Username</label>
-  <br/>
-  <input class = "text" type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Password</label>
-  <br/>
-  <input class = "text" type="text" id="lname" name="lname"><br><br>
-  <input class ="submit" type="submit" value="Log In">
-<input class ="submit" type="submit" value="Create Account">
+  <label for="Username>">Username</label>
+  <br><input type="text" id="Login-Username" name="user-login" placeholder="MatiD">
+  <br><br><label for="Password" id="Login-Password" name="user-password" >Password</label>
+  <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
+  <br><br><input class="submit" type="submit" value="Create Account">
+  <a href="/gallery">
+    <input class="submit" type="submit" value='Log In'>
+  </a>
 </form>
+
 <style>
+    input[type=text], input[type=password]{
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+      border-radius: 0.5em;
+      box-shadow: 0.75em;
+      min-width: 150px;
+      padding: 5px 5px;
+
+
+    }
+    
     .submit{
         list-style-type: none;
         width: 132px;
-        height: 30px;
+        min-height: 40px;
         margin-bottom: 12px;
         line-height: 1em;
         padding: 6px 6px 6px 7px;
@@ -28,10 +39,11 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
         background: -o-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: -ms-linear-gradient(top, #AF0011 0%, #820011 100%);
         background: linear-gradient(to top, #AF0011 0%, #820011 100%);
-        border-radius: 4px;
+        border-radius: 0.75em;
         border: 1px solid #0D0D0D;
         -webkit-box-shadow: inset 0px 1px 1px 0 #e90226;
         box-shadow: inset 0px 1px 1px 0 #e90226;
         color: white;
+
         }
 </style>
