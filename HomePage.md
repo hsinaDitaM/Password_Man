@@ -12,7 +12,6 @@
   <input class ="submit" type="submit" value="Calendar">
 <a href="http://localhost:4001">
   <input class ="submit" type="submit" value="Notepad">
-</html>
 
 <style>
     input[type=text], input[type=password]{
