@@ -9,7 +9,6 @@
     <input class="submit" type="submit" value="Create Account">
   <a href=http://localhost:4001/HomePage.html>
     <input class="submit" type="submit" value='Log In'>
-    
 </html>
 
 <style>
