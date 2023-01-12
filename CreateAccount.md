@@ -3,10 +3,11 @@
 <form>
   <label for="Create-Username>">Create-Username</label>
   <br><input type="text" id="Create-Username" name="CreateUsername" placeholder="MatiD1234">
-  <br><br><label for="Create-Password" id="Create-Password" name="Create-password" >Create-Password</label>
   <br><input type="text" id="Create-Password" name="Create-Password" placeholder="1234">
-  <br><br><input class="submit" type="submit" value="Create Account">
-  <a href="/gallery">
+  <br>
+  <a href=http://localhost:4001/CreateAccount.html>
+    <input class="submit" type="submit" value="Create Account">
+  <a href=http://localhost:4001/HomePage.html>
     <input class="submit" type="submit" value='Log In'>
   </a>
 </form>
