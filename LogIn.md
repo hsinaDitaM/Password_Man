@@ -6,10 +6,10 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <label for="Username>">Username</label>
   <br><input type="text" id="Login-Username" name="user-login" placeholder="MatiD">
   <br><br><label for="Password" id="Login-Password" name="user-password" >Password</label>
-  <br><input type="text" id="Login-Password" name="Password" placeholder="1234">
+  <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br><br><input class="submit" type="submit" value="Create Account">
   <a href="/gallery">
-    <button href>
+    <input class="submit" type="submit" value='Log In'>
   </a>
 </form>
 
@@ -28,7 +28,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
     .submit{
         list-style-type: none;
         width: 132px;
-        min-height: 30px;
+        min-height: 40px;
         margin-bottom: 12px;
         line-height: 1em;
         padding: 6px 6px 6px 7px;
