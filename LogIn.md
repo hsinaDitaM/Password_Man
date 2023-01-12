@@ -8,7 +8,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><br><label for="Password" id="Login-Password" name="user-password" >Password</label>
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br>
-  <br>
+
   <a href=localhost:4001/CreateAccount.html>
     <input class="submit" type="submit" value="Create Account">
   <br>
