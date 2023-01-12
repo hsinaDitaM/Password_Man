@@ -7,10 +7,11 @@
 | Twitter | Mati_Twitter | Tweet | [Link](https://twitter.com/home) |
 | Instagram | Mati_Instagram | Password | [Link](https://www.instagram.com/accounts/login/) |
 
-<form>
+<html>
 <input class ="submit" type="submit" value="Add Password">
-<input class ="submit" type="submit" value="Log Out">
-</form>
+<a href="http://localhost:4001/LogIn.html">
+  <input class ="submit" type="submit" value="Log Out">
+
 <style>
     input[type=text], input[type=password]{
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
