@@ -5,14 +5,15 @@
 
 ### Where to?
 
-<form>
-<a href="PasswordManager.md">
+<html>
+<a href="http://localhost:4001/PasswordManager.html">
   <input class ="submit" type="submit" value="Password Manager">
-<a href="file">
+<a href="http://localhost:4001">
   <input class ="submit" type="submit" value="Calendar">
-<a href="file">
+<a href="http://localhost:4001">
   <input class ="submit" type="submit" value="Notepad">
-</form>
+</html>
+
 <style>
     input[type=text], input[type=password]{
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
