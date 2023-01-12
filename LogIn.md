@@ -11,9 +11,9 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br>
   <a href=http://localhost:4001/CreateAccount.html>
     <input class="submit" type="submit" value="Create Account">
+    
   <a href=http://localhost:4001/HomePage.html>
     <input class="submit" type="submit" value='Log In'>
-  </a>
 
 <style>
     input[type=text], input[type=password]{
