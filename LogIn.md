@@ -9,9 +9,9 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br>
   <br>
-  <a href='CreateAccount.md'>
+  <a href="CreateAccount.md">
     <input class="submit" type="submit" value="Create Account">
-  <a href='HomePage.md'>
+  <a href="HomePage.md">
     <input class="submit" type="submit" value='Log In'>
   </a>
 </form>

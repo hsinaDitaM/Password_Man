@@ -6,12 +6,12 @@
 ### Where to?
 
 <form>
-<button></button>
-<a href='PasswordManager.md'>
-<input class ="submit" type="submit" value="Password Manager">
-<input class ="submit" type="submit" value="Calendar">
-<input class ="submit" type="submit" value="Notepad">
-<input class ="submit" type="submit" value="Calendar">
+<a href="PasswordManager.md">
+  <input class ="submit" type="submit" value="Password Manager">
+<a href="file">
+  <input class ="submit" type="submit" value="Calendar">
+<a href="file">
+  <input class ="submit" type="submit" value="Notepad">
 </form>
 <style>
     input[type=text], input[type=password]{
