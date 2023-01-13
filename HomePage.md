@@ -6,10 +6,10 @@
 ### Where to?
 
 <html>
-<a href="http://localhost:4001/PasswordManager.html">
+<a href="https://hsinaditam.github.io/Password_Man/PasswordManager.html">
   <input class ="submit" type="submit" value="Password Manager">
-<a href="http://localhost:4001">
+<a href="https://hsinaditam.github.io/Password_Man/">
   <input class ="submit" type="submit" value="Calendar">
-<a href="http://localhost:4001">
+<a href="https://hsinaditam.github.io/Password_Man/">
   <input class ="submit" type="submit" value="Notepad">
 
