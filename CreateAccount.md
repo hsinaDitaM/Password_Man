@@ -5,8 +5,8 @@
   <br><input type="text" id="Create-Username" name="CreateUsername" placeholder="MatiD1234">
   <br><input type="text" id="Create-Password" name="Create-Password" placeholder="1234">
   <br>
-  <a href="http://localhost:4001/CreateAccount.html">
+  <a href="https://hsinaditam.github.io/Password_Man/CreateAccount.html">
     <input class="submit" type="submit" value="Create Account">
-  <a href="http://localhost:4001/HomePage.html">
+  <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
     <input class="submit" type="submit" value='Log In'>
 
