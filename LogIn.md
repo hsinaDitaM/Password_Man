@@ -9,10 +9,10 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br>
 
-  <a href="http://localhost:4001/CreateAccount.html">
+  <a href="https://hsinaditam.github.io/Password_Man/CreateAccount.html">
     <input class="submit" type="submit" value="Create Account">
   <br>
-  <a href="http://localhost:4001/HomePage.html">
+  <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
     <input class="submit" type="submit" value='Log In'>
 <html>
 
