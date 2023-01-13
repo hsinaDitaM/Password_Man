@@ -9,6 +9,6 @@
 
 <html>
 <input class ="submit" type="submit" value="Add Password">
-<a href="http://localhost:4001/LogIn.html">
+<a href="https://hsinaditam.github.io/Password_Man/LogIn.html">
   <input class ="submit" type="submit" value="Log Out">
 
