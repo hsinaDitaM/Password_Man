@@ -1,5 +1,5 @@
 
-## Example of what the site looks like
+## Password Manager
 
 | Site | Username | Password | Link |
 | - | - | - | - |
