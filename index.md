@@ -8,7 +8,7 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><br><label for="Password" id="Login-Password" name="user-password" >Password</label>
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <!--dont change 127.0.0.1-->
-  <br><br> <a class="submit" href="https://hsinaditam.github.io/createaccount">Create Account</a>
+  <br><br> <a class="submit" href="https://hsinaditam.github.io/CreateAccount">Create Account</a>
   <a class="submit" href="https://hsinaditam.github.io/HomePage">Login</a>
 </form>
 
