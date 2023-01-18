@@ -10,6 +10,3 @@ c.execute("""CREATE TABLE passwords (
             password text
             )""")
 
-conn.commit()
-
-conn.close()
