@@ -1,5 +1,6 @@
 
 
+<a class="submit" href="http://127.0.0.1:4000/">Log out</a>
 
 ### Passwords
 <table>
@@ -168,7 +169,7 @@
 </ul>
 
 
-<a class="submit" href="http://127.0.0.1:4000/">Log out</a>
+
 
 
 
