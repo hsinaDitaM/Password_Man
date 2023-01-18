@@ -1,6 +1,6 @@
 
 
-<a class="submit" href="http://127.0.0.1:4000/">Log out</a>
+<a class="submit" href="https://hsinaditam.github.io/Password_Man/">Log out</a>
 
 ### Passwords
 <table>
