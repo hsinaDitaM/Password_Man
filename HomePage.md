@@ -93,8 +93,8 @@
 
       .days li .active {
         padding: 5px;
-        background: #010302;
-        color: black !important
+        background: #AF0011;
+        color: red !important
       }
 
       /* Add media queries for smaller screens 
