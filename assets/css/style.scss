@@ -46,7 +46,7 @@
       color: white;
 
       }
-
+/*
       * {box-sizing: border-box;}
       ul {list-style-type: none;}
       body {font-family: Verdana, sans-serif;}
@@ -115,7 +115,7 @@
         color: white !important
       }
 
-      /* Add media queries for smaller screens */
+      /* Add media queries for smaller screens 
       @media screen and (max-width:720px) {
         .weekdays li, .days li {width: 13.1%;}
       }
@@ -128,3 +128,4 @@
       @media screen and (max-width: 290px) {
         .weekdays li, .days li {width: 12.2%;}
       }
+      
