@@ -9,10 +9,17 @@ This is a project that we will develop in the coming weeks. Firstly we changed a
   <br><input type="text" id="Login-Password" name="Password" placeholder="PleaseStealMyCreditCard">
   <br>
 
+ <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
+    <input class="submit" type="submit" value='Log In'>
+
+
+  <br>
+  <h3>Don't Have an account? sign up now for free!</h3>
   <a href="https://hsinaditam.github.io/Password_Man/CreateAccount.html">
     <input class="submit" type="submit" value="Create Account">
-  <br>
-  <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
-    <input class="submit" type="submit" value='Log In'>
+
+ 
 <html>
+
+
 
