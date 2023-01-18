@@ -10,9 +10,11 @@ c = conn.cursor()
 #             password text
 #             )""")
 
-# c.execute("INSERT INTO passwords VALUES ('Site', 'Username', 'Password', 'link')
+c.execute("INSERT INTO passwords VALUES ('github', 'Mati', '1234', 'github.com')")
 
-c.execute("SELECT ")
+c.execute("SELECT ⋆ FROM passwords WHERE last='Schafer'")
+
+print(c.fetchone())
 
 conn.commit()
 
