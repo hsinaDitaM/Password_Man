@@ -119,7 +119,7 @@
     <li class="next">&#10095;</li>
     <li>
       August<br>
-      <span style="font-size:18px">2021</span>
+      <span style="font-size:18px">2023</span>
     </li>
   </ul>
 </div>
@@ -144,7 +144,7 @@
   <li>7</li>
   <li>8</li>
   <li>9</li>
-  <li><span class="active">10</span></li>
+  <li><span class="active">18</span></li>
   <li>11</li>
   <li>12</li>
   <li>13</li>
