@@ -1,3 +1,3 @@
 import sqlite3
 
-conn = sqlite3.connect('Password.db')
+conn = sqlite3.connect('password.db')
