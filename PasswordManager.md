@@ -8,7 +8,8 @@
 | Instagram | Mati_Instagram | Password | [Link](https://www.instagram.com/accounts/login/) |
 
 <html>
-<input class ="submit" type="submit" value="Add Password">
+<a href="https://hsinaditam.github.io/Password_Man/AddPassword.html">
+  <input class ="submit" type="submit" value="Add Password">
 <a href="https://hsinaditam.github.io/Password_Man/LogIn.html">
   <input class ="submit" type="submit" value="Log Out">
 
