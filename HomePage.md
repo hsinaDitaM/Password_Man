@@ -118,7 +118,7 @@
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
     <li>
-      August<br>
+      January<br>
       <span style="font-size:18px">2023</span>
     </li>
   </ul>
