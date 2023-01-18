@@ -7,6 +7,7 @@ google_analytics:
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
 
 title: [Identity Theft]
 description: [This site will allow you to manage all of your passwords all in one place.]
