@@ -36,7 +36,7 @@
       .month {
         padding: 70px 25px;
         width: 100%;
-        background: #1abc9c;
+        background: #AF0011;
         text-align: center;
       }
 
