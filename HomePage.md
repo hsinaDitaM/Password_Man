@@ -12,8 +12,8 @@
     </tr>
     <tr>
         <td><input type="text" name="name" id="name" required></td>
-        <td><input type="email" name="email" id="email" placeholder="abc@xyz.org" required></td>
-        <td><input type="password" name="password" id="password" required></td>
+        <td><input type="email" name="email" id="email" placeholder="MatiMakesBank@yahoo.com" required></td>
+        <td><input type="password" name="password" id="password" placeholder="Password123" required></td>
         <td><input type="tel" name="phone_num" id="phone_num"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             placeholder="999-999-9999"></td>
