@@ -36,7 +36,7 @@
       .month {
         padding: 70px 25px;
         width: 100%;
-        background: #AF0011;
+        background: #010302;
         text-align: center;
       }
 
@@ -93,8 +93,8 @@
 
       .days li .active {
         padding: 5px;
-        background: #1abc9c;
-        color: white !important
+        background: #010302;
+        color: black !important
       }
 
       /* Add media queries for smaller screens 
