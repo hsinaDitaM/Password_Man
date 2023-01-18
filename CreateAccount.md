@@ -1,15 +1,4 @@
  Create Account
- <!--
- <html>
-   <label for="Create-Username>">Create-Username</label>
-   <br><input type="text" id="Create-Username" name="CreateUsername" placeholder="MatiD1234">
-  <br><input type="text" id="Create-Password" name="Create-Password" placeholder="1234">
-  <br>
-  <a href="https://hsinaditam.github.io/Password_Man/CreateAccount.html">
-     <input class="submit" type="submit" value="Create Account">
-   <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
-     <input class="submit" type="submit" value='Log In'>
- -->
 
  <form action="create_User()">
      <p><label>
@@ -37,6 +26,9 @@
          <input type="date" name="dob" id="dob">
      </label></p>
      <p>
-         <button class="submit">Create</button>
+     <a href="https://hsinaditam.github.io/Password_Man/HomePage.html">
+        <button class="submit">Create</button>
+    <a href="https://hsinaditam.github.io/Password_Man/LogIn.html">
+        <button class="submit">Go Back</button>
      </p>
  </form>
