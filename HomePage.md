@@ -30,7 +30,7 @@
     <tr>
         <td><input type="text" name="name" id="name" placeholder="John Doe" required></td>
         <td><input type="email" name="email" id="email" placeholder="1/23" required></td>
-        <td><input type="password" name="password" id="password" placeholder="123" 
+        <td><input type="password" name="password" id="password"
             pattern="[0-9]{3}"
             placeholder="123"required></td>
         <td><input type="tel" name="phone_num" id="phone_num"
