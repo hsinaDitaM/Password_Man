@@ -1,7 +1,7 @@
 from flask_wtf import Form
 from CreateAccount import name,uid,password,phone_num,date
 from wtforms.validators import ValidationError, DataRequired
-class registration(Form):
+class registration(input):
     username = name(label="Username",validator=[DataRequired()])
     userid = uid(label="id",validator=[DataRequired()])
     password = password(label="Password",validator=[DataRequired()])

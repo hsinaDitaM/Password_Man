@@ -28,8 +28,10 @@ def login():
         c = conn.cursor()
         statement=f"SELECT * from user WHERE name='{name}' AND password='{password}'"
         c.execute(statement)
-
-
+        if not c.fetchone():
+            return render_template('LogIn.html')
+        else:
+            return render_template('HomePage.html', name=username)
 
     else:
         requests.method=='GET'
