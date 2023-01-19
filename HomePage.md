@@ -18,7 +18,7 @@
 </table>
 
 
-### Credit Card info
+### Credit Card info 
 
 <table>
     <tr>
