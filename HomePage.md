@@ -11,12 +11,12 @@
         <th><label for="phone">Phone</label></th>
     </tr>
     <tr>
-        <td><input type="text" name="name" id="name" placeholder="Mati" required></td>
-        <td><input type="email" name="email" id="email" placeholder="MatiMakesBank@yahoo.com" required></td>
-        <td><input type="password" name="password" id="password" placeholder="Password123" required></td>
+        <td><input type="text" name="name" id="name" placeholder="John Doe" required></td>
+        <td><input type="email" name="email" id="email" placeholder="JohnDoe@example.com" required></td>
+        <td><input type="password" name="password" id="password" placeholder="Password" required></td>
         <td><input type="tel" name="phone_num" id="phone_num"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            placeholder="999-999-9999"></td>
+            placeholder="123-456-7890"></td>
         <td ><button onclick="create_User()">Create</button></td>
     </tr>
 </table>
@@ -139,7 +139,7 @@
                 <th>Sat</th>
             </tr>
             </thead>
-
+            <!--dont change the indentation of this code!--->
             <tbody id="calendar-body">
 
             </tbody>
