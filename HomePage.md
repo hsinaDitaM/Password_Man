@@ -13,12 +13,32 @@
         <td><input type="tel" name="phone_num" id="phone_num"
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             placeholder="123-456-7890"></td>
-        <td ><button onclick="create_User()">Create</button></td>
+        <td ><button onclick="create_Password()">Add Password</button></td>
     </tr>
 </table>
 
 
 ### Credit Card info
+
+<table>
+    <tr>
+        <th><label for="name">Card Holder Name</label></th>
+        <th><label for="email">Expiration Date</label></th>
+        <th><label for="password">CVC</label></th>
+        <th><label for="phone">Card Number</label></th>
+    </tr>
+    <tr>
+        <td><input type="text" name="name" id="name" placeholder="John Doe" required></td>
+        <td><input type="email" name="email" id="email" placeholder="1/23" required></td>
+        <td><input type="password" name="password" id="password" placeholder="123" 
+            pattern="[0-9]{3}"
+            placeholder="123"required></td>
+        <td><input type="tel" name="phone_num" id="phone_num"
+            pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"
+            placeholder="1234-5678-9012" required></td>
+        <td ><button onclick="create_Credit()">Add Credit Card</button></td>
+    </tr>
+</table>
 
 
 
