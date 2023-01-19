@@ -1,7 +1,3 @@
-
-
-<a class="submit" href="https://hsinaditam.github.io/Password_Man/">Log out</a>
-
 ### Passwords
 <table>
     <tr>
@@ -216,6 +212,8 @@
     </div>
 </div>
 
+
+<a class="submit" href="https://hsinaditam.github.io/Password_Man/">Log out</a>
 
 <script>
   today = new Date();
