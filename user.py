@@ -1,22 +1,33 @@
 import sqlite3
+from flask import Flask
+from flask import render_template
 
-conn = sqlite3.connect('user.db')
+app = Flask(__name__)
+app.secret_key="__privatekey__"
 
-c = conn.cursor()
+@app.route('/')
+def defaultHome():
+    return render_template('LogIn.html')
+def __init__(self):
+    conn = sqlite3.connect('user.db')
 
-# c.execute("""CREATE TABLE users (
-#             site text,
-#             username text,
-#             password text,
-#             link text
-#             )""")
+    c = conn.cursor()
 
-# c.execute("INSERT INTO users VALUES ('github', 'Mati', '1234', 'github.com')")
+    c.execute("""CREATE TABLE users (
+                username text,
+                password text
+                )""")
 
-c.execute("SELECT * FROM users WHERE username='Mati'")
+    username = """username"""
+    password = """password"""
 
-print(c.fetchone())
+    c.execute("INSERT INTO users VALUES ('Mati', '1234')")
 
-conn.commit()
+    print(c.fetchone())
 
-conn.close()
+    conn.commit()
+
+    conn.close()
+
+    @app.route('/CreateAccount',methods=['POST','GET'])
+    
