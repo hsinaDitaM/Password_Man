@@ -19,6 +19,22 @@ def __init__(self):
     conn.commit()
     conn.close()
 
+@app.route('/login',methods=['POST','GET'])
+def login():
+    if requests.method=='POST':
+        username = requests.form['name']
+        password = requests.form['password']
+        conn = sqlite3.connect('user.db')
+        c = conn.cursor()
+        statement=f"SELECT * from user WHERE name='{name}' AND password='{password}'"
+        c.execute(statement)
+
+
+
+    else:
+        requests.method=='GET'
+        return render_template('login.html')
+
 @app.route('/registration',methods=['POST','GET'])
 def registrationform():
     registrations = registration()
