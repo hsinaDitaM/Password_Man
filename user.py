@@ -32,9 +32,15 @@ def registrationform():
             c.execute(statement)
             data=c.fetchone()
             if data:
-
+                return render_template("error.html")
+            else:
+                if not data:
+                    c.execute("INSERT INTO user (name,password) VALUES (?,?)",(name,password))
+                    conn.commit()
+                    conn.close()
+                return render_template('LogIn.html')
 
 
     elif requests.method=='GET':
         return render_template('CreateAccount.html',form=registrations)
-    '
+    
