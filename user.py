@@ -3,7 +3,6 @@ from flask import Flask
 from flask import render_template
 from Createaccount import registration
 import requests
-from 
 
 app = Flask(__name__)
 app.secret_key="__privatekey__"
